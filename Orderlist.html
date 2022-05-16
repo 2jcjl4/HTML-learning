@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>using orderlists</title>
+    </head>
+    <body>
+
+        <h1>Using lists and Anchers </h1>
+
+        <!--  LISTS AND LIST ITEMs -->
+
+        <!-- Order lists -->
+        <ol>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ol>
+
+        <!-- unordered lists -->
+        <!-- uses bullet points instead of 
+        1.
+        2.
+        3.
+         -->
+        <ul>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ul>
+
+        <!-- Nested lists -->
+        <ul>
+            <li>
+                this is a list item
+            </li>
+
+            <ul>
+                <li>This is a nested list item</li>
+                <li>This is another nested list</li>
+                <ul>
+                    <li>This is a nested nested list</li>
+                    <ul>
+                        <li>you can nest as much as you like</li>
+                        <ol>
+                            <li>
+                                you can nest ordered list inside
+                                unorderedlists
+                            </li>
+                            <li> see this is number 2</li>
+                            <li>and 3</li>
+                            <li> and so on </li>
+                        </ol>
+                    </ul>
+                </ul>
+            </ul>
+
+        </ul>
+
+        <!-- ANCHOR TAGS -->
+        <!-- hyperlinks -->
+
+        <!-- reference stuff in the same directory -->
+        <!-- href is the location -->
+        <a href="./index.html">!!!click this!!!</a>
+        <br/>
+
+        <!-- reference stuff in another folder in thsi directory -->
+        <a href="./New page/newpage.html">this will take you
+            to the other folder file</a>
+        <br/>
+
+        <!-- target controls how the link is opened -->
+        <!-- Blank opens a new tab -->
+        <a href="./index.html" target="_blank">!!!click this!!!</a>
+        <br/>
+
+        <!-- Images -->
+        <!-- Self closing tag -->
+        <!-- Requires a source (src) -->
+        <!-- better to download a image and reference it from
+        your own directory -->
+        <!-- Alt is used as a backup incase the image isnt found it
+        will display this text
+        its also used for visually imapared people so that they
+        can navagate and use a site. -->
+
+        <!-- can use inlice CSS ( height and width) not really 
+        needed when you know CSS -->
+
+        <!-- use PX for pixle size
+            use VW for view port size (changes size with the page) -->
+        <img src="https://qa-community.co.uk/static/qa_fill_primary.svg" 
+            style="height:18vw;
+                   width:18vw"
+        alt="QA logo"/>
+
+
+
+    </body>
+</html>
