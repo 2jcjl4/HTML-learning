@@ -1,0 +1,21 @@
+em{
+    color: blue;
+}
+
+article p {
+    color: red;
+}
+
+article > h1 {
+    color: limegreen;
+}
+h1 + p{
+    color: purple;
+}
+h1 ~ p{
+    background-color: grey;
+}
+
+.hover:hover{
+    background-color: yellow;
+}

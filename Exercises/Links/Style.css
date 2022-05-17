@@ -1,0 +1,51 @@
+
+body{
+    background-color: rgb(121, 134, 130);
+}
+
+#Company-logo{
+    height:10vw;
+    width:10vw;
+}
+
+img{
+    height:40vw ;
+    width:40vw ;
+}
+
+
+.testDivs{
+
+    border: 10px solid rgb(0, 0, 0) ;
+    width: 25%;
+    text-align: center;
+    margin-bottom: 1%;
+    border-radius: 20px;
+}
+
+#div1{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#div2{
+    border: 30px dotted red;
+    position: absolute;
+    right: 10px;
+}
+#div3{
+    border: 2px solid green;
+    font-style: oblique;
+    text-shadow: 15px 10px yellow;
+}
+#div4{
+    font-size: large;
+    font-style: italic;
+}
+#div5{
+    font-size: xx-small;
+}
+
+#TransformMe{
+    transform: translate(100px, 250px) rotateY(180deg) skew(-25deg, 20deg); 
+}

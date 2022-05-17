@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Styling Learning</title>
+
+        <!-- 
+        Order of precedence:
+
+        !important
+
+        inline
+
+        internal/external (depending on order)
+
+        More specific selectors take
+        precedence over less specific
+        selectors
+         -->
+
+
+        <!-- EXTERNAL STYLING -->
+        <!-- changes everything the same as INTERNAL
+        but from another file. -->
+        <!-- priority style is in order after there is no president
+        such as INLINE styling is more of a priority when INTERNAL
+        and EXTERNAL are equal so its first come first serve -->
+        <link rel="stylesheet" href="../Links/Style.css"/>
+
+        <!-- INTERNAL STYLING -->
+        <!-- Changes ALL img tags to this size -->
+        <style>
+            img{
+                height:20vw;
+                width:20vw;
+            }
+        </style>
+        
+    </head>
+    <body>
+
+        <br/>
+        <div>
+            <p>
+                For testing
+            </p>
+        </div>
+       <br/>
+        <img src="../Pictures/smiley.gif" alt="Smiley face"/>
+        <br/>
+        <!-- Inline take pressidents over anything, it has a higher priority -->
+        <img src="../Pictures/scream.png" style="height:10vw; width:10vw" 
+        alt="scream Character"/>
+        <br/>
+        <div id="div1" class="testDivs">Test Div 1</div>
+        <br/>
+        <div id="div2" class="testDivs">Test Div 2</div>
+        <br/>
+    </body>
+</html>
