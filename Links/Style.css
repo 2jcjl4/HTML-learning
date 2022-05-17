@@ -1,0 +1,42 @@
+
+body{
+    background-color: aquamarine;
+}
+
+#Company-logo{
+    height:10vw;
+    width:10vw;
+}
+
+/* Forcing presidence will force override */
+/* 
+    height:40vw !important;
+    width:40vw !important;
+     */
+
+img{
+    height:40vw ;
+    width:40vw ;
+}
+
+/* Selecting classes */
+.testDivs{
+    /* making border */
+    border: 10px solid black ;
+    width: 25%;
+    text-align: center;
+    margin-bottom: 1%;
+    border-radius: 20px;
+}
+
+/* select by ID using # */
+#div1{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#div2{
+
+    position: absolute;
+    right: 10px;
+}
