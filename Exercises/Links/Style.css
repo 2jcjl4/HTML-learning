@@ -33,3 +33,15 @@ img{
     position: absolute;
     right: 10px;
 }
+#div3{
+    border: 2px solid green;
+    font-style: oblique;
+    text-shadow: 15px 10px yellow;
+}
+#div4{
+    font-size: large;
+    font-style: italic;
+}
+#div5{
+    font-size: xx-small;
+}
