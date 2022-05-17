@@ -1,21 +1,24 @@
+/* adding to a element */
 em{
     color: blue;
 }
-
+/* descendant combinator */
 article p {
     color: red;
 }
-
+/* Direct Child */
 article > h1 {
     color: limegreen;
 }
+/* adjacent */
 h1 + p{
     color: purple;
 }
+/* select all siblings */
 h1 ~ *{
     background-color: grey;
 }
-
+/* Hover class and mode */
 .hover:hover{
     background-color: yellow;
 }
