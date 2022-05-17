@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms</title>
+
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+        <!-- FORMS -->
+        <!-- Used for taking inputs ( user inputs ) -->
+        <!-- Two main attributes -->
+        <!-- Method -> HOW to send the data -->
+        <!-- Action -> WHERE to send the data -->
+
+        <!-- GET METHOD -->
+        <form method="get" action="search.html">
+            <h4>GET FORM</h4>
+            <!-- an input for text -->
+            <input type="text" name="query">
+            <!-- a button to submit the form -->
+            <button type="submit">
+                SEND
+            </button>
+
+        </form>
+        <h4>more inputs</h4>
+        <!-- POST method -->
+        <!-- Sends the data to the action URL -->
+
+        <input type="checkbox" name="Checkbox1" value="1"/>1
+        <input type="checkbox" name="Checkbox2" value="2"/>2
+        
+        <fieldset>
+            <legend>question 1:</legend>
+            <!-- move the display value which side you want as shown by a and b -->
+            <input type="radio" name="choice" value="a"/>a
+            b<input type="radio" name="choice" value="b"/>
+            <input type="radio" name="choice" value="c"/>c
+            <input type="radio" name="choice" value="d"/>d
+        </fieldset>
+
+        <input type="date" name="dob">
+
+        <input type="color" name="colour">
+
+
+        <!-- Put this at the bottom of the body, to ensure that all the body is loaded before the script tries to run. -->
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    </body>
+</html>
