@@ -6,8 +6,8 @@ console.warn("this is a warn console");
 console.error("this is a error console");
 
 // exercise part 2
-make = "Audi";
-model = "A5";
+let make = "Audi";
+let model = "A5";
 
 console.log("My Favourite car is "+make+" and the model is "+ model);
 
