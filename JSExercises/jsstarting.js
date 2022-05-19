@@ -13,4 +13,11 @@ console.log("My Favourite car is "+make+" and the model is "+ model);
 
 // ' + ' is used to add more to output where as '  ,  ' is used to change propertys 'data: any[]'  '  %c  ' means the next part can have css
 
+
 console.log("This is now %c the end of the exercises.","color: orange;font-family:fantasy; font-style: Bold; background-color: black;padding: 10px");
+
+
+function sayHello() {
+    return ("Someone says hello")};
+
+console.log(sayHello())
