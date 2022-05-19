@@ -64,6 +64,13 @@ let day = now.getDay();
 
 // altered my code
 console.log(day);
-// switch(day){
-//     case 1:
-// }
+switch(day){
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+        console.log("its a week day");
+        break;
+    // did not add the 6th and 7th day as was not added into the spec
+ }
